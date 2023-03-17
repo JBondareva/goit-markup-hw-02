@@ -49,6 +49,7 @@ body {
 
 /* Navigation */
 .site-nav .link,
+.header-item,
 .header-link {
   color: var(--dark);
   font-weight: 500;
@@ -58,6 +59,8 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
+.header-item .link:hover,
+.header-item .link:focus,
 .header-link .link:hover,
 .header-link .link:focus {
   color: var(--pressed-state);
@@ -67,6 +70,9 @@ body {
   color: var(--primary-brand);
 }
 
+.address {
+  font-style: normal;
+}
 .address-nav .link {
   color: var(--text);
   font-style: normal;
