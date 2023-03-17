@@ -6,7 +6,7 @@
     <title>Document</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="preconnect"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -14,10 +14,10 @@
     <header class="header">
       <!-- Navigation -->
       <nav class="header-novigation">
-        <a href="./index.html" class="logo"><span class="logo-part">Web</span>Studio</a>
+        <a href="./index.html" class="logo">Web<span class="logo-part">Studio</span></a>
         <ul class="site-nav list">
           <li class="header-item">
-            <a class="header-link link" href="">Studio</a>
+            <a class="header-link link" href="./index.html">Studio</a>
           </li>
           <li class="header-item">
             <a class="header-link link current" href="./portfolio.html">Portfolio</a>
@@ -45,66 +45,83 @@
 
     <!-- Filters -->
     <section>
+      <h1 hidden class="hero-title">Gallery</h1>
       <ul class="list">
-        <li><button type="button">All</button></li>
-        <li><button type="button">Web Site</button></li>
-        <li><button type="button">App</button></li>
-        <li><button type="button">Design</button></li>
-        <li><button type="button">Marketing</button></li>
+        <li><button type="button" class="btn-filter">All</button></li>
+        <li><button type="button" class="btn-filter">Web Site</button></li>
+        <li><button type="button" class="btn-filter">App</button></li>
+        <li><button type="button" class="btn-filter">Design</button></li>
+        <li><button type="button" class="btn-filter">Marketing</button></li>
       </ul>
-    </section>
-    <!-- Gallery -->
-    <section>
-      <h1 class="hero-title">Gallery</h1>
+
+      <!-- Gallery -->
       <ul class="gallery list">
         <li>
-          <h3 class="team-title">Banking App Interface Concept</h3>
-          <p class="team-text">App</p>
-          <img src="./images/app.jpg" alt="banking app interface concepte" width="360" />
+          <a class="link" href="">
+            <h2 class="team-title">Banking App Interface Concept</h2>
+            <p class="team-text">App</p>
+            <img src="./images/app.jpg" alt="banking app interface concepte" width="360" />
+          </a>
         </li>
         <li>
-          <h3 class="team-title">Cashless Payment</h3>
-          <p class="team-text">Marketing</p>
-          <img src="./images/marketing.jpg" alt="cashless payment" width="360" />
+          <a class="link" href="">
+            <h2 class="team-title">Cashless Payment</h2>
+            <p class="team-text">Marketing</p>
+            <img src="./images/marketing.jpg" alt="cashless payment" width="360" />
+          </a>
         </li>
         <li>
-          <h3 class="team-title">Meditaion App</h3>
-          <p class="team-text">App</p>
-          <img src="./images/app-second.jpg" alt="meditaion app" width="360" />
+          <a class="link" href="">
+            <h2 class="team-title">Meditaion App</h2>
+            <p class="team-text">App</p>
+            <img src="./images/app-second.jpg" alt="meditaion app" width="360" />
+          </a>
         </li>
         <li>
-          <h3 class="team-title">Taxi Service</h3>
-          <p class="team-text">Marketing</p>
-          <img src="./images/marketing-taxi.png" alt="taxi service" width="360" />
+          <a class="link" href="">
+            <h2 class="team-title">Taxi Service</h2>
+            <p class="team-text">Marketing</p>
+            <img src="./images/marketing-taxi.jpg" alt="taxi service" width="360" />
+          </a>
         </li>
         <li>
-          <h3 class="team-title">Screen Illustrations</h3>
-          <p class="team-text">Design</p>
-          <img src="./images/img-design.png" alt="screen illustrations" width="360" />
+          <a class="link" href="">
+            <h2 class="team-title">Screen Illustrations</h2>
+            <p class="team-text">Design</p>
+            <img src="./images/img-design.jpg" alt="screen illustrations" width="360" />
+          </a>
         </li>
         <li>
-          <h3 class="team-title">Online Courses</h3>
-          <p class="team-text">Marketing</p>
-          <img src="./images/marketing-courses.png" alt="a girl with a phone" width="360" />
+          <a class="link" href="">
+            <h2 class="team-title">Online Courses</h2>
+            <p class="team-text">Marketing</p>
+            <img src="./images/marketing-courses.jpg" alt="a girl with a phone" width="360" />
+          </a>
         </li>
         <li>
-          <h3 class="team-title">Instagram Stories Concept</h3>
-          <p class="team-text">Design</p>
-          <img src="./images/design-instagram.png" alt="instagram stories concept" width="360" />
+          <a class="link" href="">
+            <h2 class="team-title">Instagram Stories Concept</h2>
+            <p class="team-text">Design</p>
+            <img src="./images/design-instagram.jpg" alt="instagram stories concept" width="360" />
+          </a>
         </li>
         <li>
-          <h3 class="team-title">Organic Food</h3>
-          <p class="team-text">Web Site</p>
-          <img src="./images/website-food.png" alt="vegetables and fruits in a bag" width="360" />
+          <a class="link" href="">
+            <h2 class="team-title">Organic Food</h2>
+            <p class="team-text">Web Site</p>
+            <img src="./images/website-food.jpg" alt="vegetables and fruits in a bag" width="360" />
+          </a>
         </li>
         <li>
-          <h3 class="team-title">Fresh Coffee</h3>
-          <p class="team-text">Web Site</p>
-          <img
-            src="./images/website-coffee.png"
-            alt="barista pours coffee into a cup"
-            width="360"
-          />
+          <a class="link" href="">
+            <h2 class="team-title">Fresh Coffee</h2>
+            <p class="team-text">Web Site</p>
+            <img
+              src="./images/website-coffee.jpg"
+              alt="barista pours coffee into a cup"
+              width="360"
+            />
+          </a>
         </li>
       </ul>
     </section>

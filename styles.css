@@ -100,7 +100,7 @@ body {
   color: var(--white-background);
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.2;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -115,7 +115,7 @@ body {
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
-  cursor: p;
+  cursor: pointer;
 }
 
 .btn:hover,
@@ -128,7 +128,34 @@ body {
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
-  cursor: p;
+  cursor: pointer;
+}
+.btn-filter {
+  color: var(--primary-brand);
+  background-color: var(--light);
+  border: 1px solid var(--accent);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+  color: var(--white-background);
+  background-color: var(--pressed-state);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 /* Section */
@@ -139,7 +166,7 @@ body {
   color: var(--dark);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -150,7 +177,7 @@ body {
   color: var(--dark);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .about {
@@ -162,6 +189,13 @@ body {
   color: var(--dark);
 }
 
+.about-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 /* 03 Team */
 .team-title {
   color: var(--dark);
@@ -181,6 +215,9 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+}
+.team-title {
+  background-color: var(--white-background);
 }
 /* Footer */
 .logo-footer {
