@@ -1,3 +1,11 @@
+/* Body */
+body {
+  color: var(--text);
+  background-color: var(--white-background);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
 :root {
   --primary-brand: #4d5ae5;
   --pressed-state: #404bbf;
@@ -10,14 +18,6 @@
   --modal-overlay: rgba(46, 47, 66, 0.4);
   --hero-background: rgba(46, 47, 66, 0.7);
   --white-background: #ffffff;
-}
-
-/* Body */
-body {
-  color: var(--text);
-  background-color: var(--white-background);
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
 }
 
 /* Logo */
@@ -48,8 +48,6 @@ body {
 }
 
 /* Navigation */
-.site-nav .link,
-.header-item,
 .header-link {
   color: var(--dark);
   font-weight: 500;
@@ -57,15 +55,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.site-nav .link:hover,
-.site-nav .link:focus,
-.header-item .link:hover,
-.header-item .link:focus,
 .header-link .link:hover,
 .header-link .link:focus {
   color: var(--pressed-state);
 }
-.site-nav .link.current,
 .header-link .link.current {
   color: var(--primary-brand);
 }
