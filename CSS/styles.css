@@ -22,7 +22,7 @@ body {
 
 /* Logo */
 .logo {
-  color: var(--pressed-state);
+  color: var(--primary-brand);
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.03em;
   font-weight: 800;
